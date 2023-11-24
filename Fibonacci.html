@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <title>IFAM</title>
+</head>
+<body>
+  <header><script src="scripts.js"></script>
+  </header>
+  <script>
+    let termo= window.prompt("Quantos termos!"); 
+    let n1=0,n2=1,fib=0;
+    for(let i=0;i<=termo;i++){
+        n1=n2;
+        n2=fib;
+        fib=n1+n2;
+       document.write(fib+",");
+    }
+  </script>
+ 
+ 
+</body>
+</html>
